@@ -2,6 +2,9 @@
   "name": "jate",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "18.x"
+  },
   "main": "server.js",
   "scripts": {
     "start:dev": "concurrently \"cd server && npm run server\" \"cd client && run dev\"",
@@ -16,8 +19,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4",
-    "node.js": "18.16.0"
+    "if-env": "^1.0.4"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
